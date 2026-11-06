@@ -1,0 +1,48 @@
+name: QA Operacional Semanal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 0'
+
+jobs:
+  qa-operacional-semanal:
+    runs-on: ubuntu-latest
+    env:
+      POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
+      BASE_URL: ${{ secrets.BASE_URL }}
+      AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
+      STRIPE_ENABLED: "false"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Validate required env
+        run: |
+          test -n "$POSTGRES_URL" || (echo "POSTGRES_URL ausente" && exit 1)
+          test -n "$BASE_URL" || (echo "BASE_URL ausente" && exit 1)
+          test -n "$AUTH_SECRET" || (echo "AUTH_SECRET ausente" && exit 1)
+
+      - name: Run weekly full QA cycle
+        run: pnpm run qa:full
+
+      - name: Upload QA artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-operacional-semanal-artifacts
+          path: Projeto/registos-qa/**
+          if-no-files-found: warn

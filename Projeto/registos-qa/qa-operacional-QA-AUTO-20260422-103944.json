@@ -1,0 +1,72 @@
+{
+  "runTag": "QA-AUTO-20260422-103944",
+  "generatedAt": "2026-04-22T13:39:44.556Z",
+  "team": {
+    "id": 1,
+    "name": "Time AtlasSwitch"
+  },
+  "user": {
+    "id": 1,
+    "email": "teste@atlatswitch.com",
+    "name": "Cleverson Scopel (Usuário)"
+  },
+  "inserts": {
+    "projectusProjects": 6,
+    "projectusPhases": 12,
+    "projectusTasks": 24,
+    "taskflowTasks": 42,
+    "taskflowTaskAssignees": 42,
+    "reunifyMeetings": 14,
+    "reunifyActionItems": 10,
+    "chronosAgendaItems": 24,
+    "billtrakAccounts": 4,
+    "billtrakBills": 18,
+    "billtrakTransactions": 28,
+    "resourcehubResources": 12,
+    "resourcehubAllocations": 22,
+    "bibliothecaDocuments": 18,
+    "notepadNotes": 24,
+    "scriptumProjects": 10,
+    "scriptumChapters": 30
+  },
+  "dashboards": {
+    "taskflow": {
+      "totalTasks": 129,
+      "openTasks": 102,
+      "doneTasks": 27
+    },
+    "reunify": {
+      "totalMeetings": 43,
+      "scheduledMeetings": 31,
+      "actionItems": 30
+    },
+    "chronos": {
+      "totalAgendaItems": 78
+    },
+    "billtrak": {
+      "accounts": 13,
+      "bills": 54,
+      "transactions": 84,
+      "revenuesCents": 567000,
+      "expensesCents": 1890000
+    },
+    "projectus": {
+      "projects": 19,
+      "tasks": 75
+    },
+    "resourcehub": {
+      "resources": 37,
+      "allocations": 66
+    },
+    "scriptum": {
+      "projects": 31,
+      "chapters": 90
+    },
+    "notepad": {
+      "notes": 73
+    },
+    "bibliotheca": {
+      "documents": 55
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1726443359662,
+      "tag": "0000_soft_the_anarchist",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1770407987304,
+      "tag": "0001_daffy_magdalene",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1770409000000,
+      "tag": "0002_atlas_modules",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1770410500000,
+      "tag": "0003_taskflow_rules",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1770412000000,
+      "tag": "0004_taskflow_advanced_rules",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1770412300000,
+      "tag": "0005_taskflow_events",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1770413200000,
+      "tag": "0006_projectus_projects",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1770413500000,
+      "tag": "0007_taskflow_project_id",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1770415000000,
+      "tag": "0008_chronos_advanced",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1770417000000,
+      "tag": "0009_projectus_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1770419000000,
+      "tag": "0010_projectus_dependencies_costs",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1770421000000,
+      "tag": "0011_reunify_advanced",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1770423000000,
+      "tag": "0012_resourcehub_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1770425000000,
+      "tag": "0013_billtrak_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1770428000000,
+      "tag": "0014_bibliotheca_advanced",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1770430000000,
+      "tag": "0015_notepad_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1770432000000,
+      "tag": "0016_scriptum_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1770434000000,
+      "tag": "0017_control_center",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1770436000000,
+      "tag": "0018_control_center_health",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1770438000000,
+      "tag": "0019_ai_models",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1770440000000,
+      "tag": "0020_users_avatar",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1770442000000,
+      "tag": "0021_saas_plans_stripe",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1770444000000,
+      "tag": "0022_taskflow_daily_checklist",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1770901424626,
+      "tag": "0023_short_young_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1770902500000,
+      "tag": "0024_roles_team_hierarchy",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1770903600000,
+      "tag": "0025_invitations_reports_to",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1770904800000,
+      "tag": "0026_password_reset_tokens",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1770906000000,
+      "tag": "0027_invitation_opaque_token",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1770907200000,
+      "tag": "0028_taskflow_label_priority",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1770908400000,
+      "tag": "0029_taskflow_column_phases",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1770909600000,
+      "tag": "0030_taskflow_status_definitions",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1770910800000,
+      "tag": "0031_taskflow_task_types",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1770912000000,
+      "tag": "0032_taskflow_task_schedule",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1770913200000,
+      "tag": "0033_taskflow_task_assignees",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1770914400000,
+      "tag": "0034_taskflow_task_attachments",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1770915600000,
+      "tag": "0035_taskflow_task_recurrence",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1770916800000,
+      "tag": "0036_chronos_taskflow_task_link",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1770918000000,
+      "tag": "0037_reunify_action_item_taskflow_link",
+      "breakpoints": true
+    },
+    {
+      "idx": 38,
+      "version": "7",
+      "when": 1770919200000,
+      "tag": "0038_taskflow_interventions",
+      "breakpoints": true
+    },
+    {
+      "idx": 39,
+      "version": "7",
+      "when": 1770920400000,
+      "tag": "0039_taskflow_intervention_source",
+      "breakpoints": true
+    },
+    {
+      "idx": 40,
+      "version": "7",
+      "when": 1770921600000,
+      "tag": "0040_taskflow_intervention_idle_timer",
+      "breakpoints": true
+    },
+    {
+      "idx": 41,
+      "version": "7",
+      "when": 1770922800000,
+      "tag": "0041_team_taskflow_ai_insights",
+      "breakpoints": true
+    },
+    {
+      "idx": 42,
+      "version": "7",
+      "when": 1770924000000,
+      "tag": "0042_platform_settings",
+      "breakpoints": true
+    },
+    {
+      "idx": 43,
+      "version": "7",
+      "when": 1770925200000,
+      "tag": "0043_team_reunify_transcript_draft",
+      "breakpoints": true
+    },
+    {
+      "idx": 44,
+      "version": "7",
+      "when": 1770926400000,
+      "tag": "0044_team_taskflow_assist_suggestions",
+      "breakpoints": true
+    },
+    {
+      "idx": 45,
+      "version": "7",
+      "when": 1770927600000,
+      "tag": "0045_taskflow_webhooks",
+      "breakpoints": true
+    },
+    {
+      "idx": 46,
+      "version": "7",
+      "when": 1770928800000,
+      "tag": "0046_taskflow_public_portal",
+      "breakpoints": true
+    },
+    {
+      "idx": 47,
+      "version": "7",
+      "when": 1770930000000,
+      "tag": "0047_taskflow_board_template",
+      "breakpoints": true
+    },
+    {
+      "idx": 48,
+      "version": "7",
+      "when": 1770931200000,
+      "tag": "0048_taskflow_epic_sprint",
+      "breakpoints": true
+    },
+    {
+      "idx": 49,
+      "version": "7",
+      "when": 1770932400000,
+      "tag": "0049_taskflow_dev_integration",
+      "breakpoints": true
+    },
+    {
+      "idx": 50,
+      "version": "7",
+      "when": 1770933600000,
+      "tag": "0050_taskflow_cloud_ai",
+      "breakpoints": true
+    },
+    {
+      "idx": 51,
+      "version": "7",
+      "when": 1770934800000,
+      "tag": "0051_user_microsoft_graph",
+      "breakpoints": true
+    },
+    {
+      "idx": 52,
+      "version": "7",
+      "when": 1770936000000,
+      "tag": "0052_taskflow_semantic_search",
+      "breakpoints": true
+    },
+    {
+      "idx": 53,
+      "version": "7",
+      "when": 1770937200000,
+      "tag": "0053_user_google_calendar_links",
+      "breakpoints": true
+    },
+    {
+      "idx": 54,
+      "version": "7",
+      "when": 1770938400000,
+      "tag": "0054_reunify_meeting_captures",
+      "breakpoints": true
+    },
+    {
+      "idx": 55,
+      "version": "7",
+      "when": 1770939600000,
+      "tag": "0055_teams_reunify_asr_provider",
+      "breakpoints": true
+    },
+    {
+      "idx": 56,
+      "version": "7",
+      "when": 1770940800000,
+      "tag": "0056_taskflow_tts_notifications",
+      "breakpoints": true
+    },
+    {
+      "idx": 57,
+      "version": "7",
+      "when": 1770942000000,
+      "tag": "0057_saas_plans_max_team_admin_slots",
+      "breakpoints": true
+    },
+    {
+      "idx": 58,
+      "version": "7",
+      "when": 1770943200000,
+      "tag": "0058_chronos_agenda_reunify_meeting",
+      "breakpoints": true
+    },
+    {
+      "idx": 59,
+      "version": "7",
+      "when": 1770944400000,
+      "tag": "0059_reunify_meeting_participants",
+      "breakpoints": true
+    },
+    {
+      "idx": 60,
+      "version": "7",
+      "when": 1770945600000,
+      "tag": "0060_chronos_participant_user",
+      "breakpoints": true
+    },
+    {
+      "idx": 61,
+      "version": "7",
+      "when": 1770946800000,
+      "tag": "0061_reunify_meeting_lifecycle",
+      "breakpoints": true
+    },
+    {
+      "idx": 62,
+      "version": "7",
+      "when": 1770948000000,
+      "tag": "0062_reunify_meeting_history",
+      "breakpoints": true
+    },
+    {
+      "idx": 63,
+      "version": "7",
+      "when": 1770949200000,
+      "tag": "0063_reunify_reason_catalog",
+      "breakpoints": true
+    },
+    {
+      "idx": 64,
+      "version": "7",
+      "when": 1770950400000,
+      "tag": "0064_projectus_cost_categories",
+      "breakpoints": true
+    },
+    {
+      "idx": 65,
+      "version": "7",
+      "when": 1770951000000,
+      "tag": "0065_integration_sync_events",
+      "breakpoints": true
+    },
+    {
+      "idx": 66,
+      "version": "7",
+      "when": 1770951600000,
+      "tag": "0066_platform_operator_role_seed",
+      "breakpoints": true
+    },
+    {
+      "idx": 67,
+      "version": "7",
+      "when": 1770952200000,
+      "tag": "0067_saas_plans_catalog_suspended",
+      "breakpoints": true
+    }
+  ]
+}
